@@ -26,7 +26,7 @@ SECRET_KEY = 'tl*n16cw!nc9y+@$r^y5&*ns(*42o3@9wq3mi6$v*r2kxsjwn1'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    ".ap-northeast-2.compute.amazonaws.com"
+    #".ap-northeast-2.compute.amazonaws.com"
 ]
 
 

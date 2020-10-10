@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from .models import *
 
-# Create your views here.
 def index(request) :
-    return render(request, "index.html")
+    courses = Course.objects.all()
+    spots = Spot.objects.all()
+    return render(request, "index.html", {'courses' : courses, 'spots':spots})
